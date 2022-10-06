@@ -1,0 +1,52 @@
+.form_container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  background-color: #eee;
+
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.input_container {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  height: 25px;
+  width: 35%;
+
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.form_container > button {
+  border: none;
+  border-radius: 10px;
+  background-color: teal;
+  height: 40px;
+  width: 140px;
+  padding: 10px;
+
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.form_container > button:hover {
+  cursor: pointer;
+
+  width: calc(15%);
+}
